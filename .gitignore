@@ -1,0 +1,78 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio / VS Code related
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Flutter / Dart / Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Android build related
+android/.gradle/
+android/.kotlin/
+android/local.properties
+android/app/build/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/build/
+
+# Symbolication & obfuscation
+app.*.symbols
+app.*.map.json
+
+# Package artifacts & APKs
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Test & developer configs (kept local)
+test/
+.metadata
+analysis_options.yaml
+pubspec.lock
+
+# Local docs, tools, design assets & handover notes
+docs/
+tool/
+assets/
+CHANGELOG.md
+CONTRIBUTING.md
+*需求文档*.md
+*问答记录*.md
+*交接说明*.md
+*.tmp
+*.bak
+
+# Local agent / assistant artifacts
+.superpowers/
+.workbuddy/
+
+# OS metadata
+Thumbs.db
+ehthumbs.db
+desktop.ini
